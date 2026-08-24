@@ -1,0 +1,33 @@
+.bottom-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bottom-menu-item {
+  margin: 20px;
+  }
+  .bottom-menu-button {
+    height: 100px;
+    width: 200px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .bottom-menu-button:hover {
+    cursor: pointer;
+  }
+  .bottom-menu-button:active {
+    background-color: rgb(72, 72, 255);
+  }
+  .main-title {
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
