@@ -19,29 +19,6 @@
   margin-bottom: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
-.preview-window {
-  display: flex;
-  grid-template-columns: (1fr);
-}
-.preview-open {
-  height: 500px;
-  width: 500px;
-  transform: translate(512px);
-  opacity: 0;
-}
-.preview-open:active {
-  opacity: 1;
-}
-.preview-closed {
-  height: 500px;
-  width: 500px;
-}
-.preview-closed:hover {
-  cursor: pointer;
-}
-.preview-closed:active {
-  opacity: 0;
-}
 .bottom-menu {
   display: flex;
   justify-content: center;
