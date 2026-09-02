@@ -63,3 +63,8 @@
   display: grid;
   grid-template-rows: (auto);
 }
+.audio-preview-rows {
+  display: grid;
+  grid-template-rows: auto;
+  margin: auto;
+}
