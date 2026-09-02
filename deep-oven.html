@@ -50,14 +50,7 @@
           <audio id="TetsuyaPrev0108" src="media/deep-oven-audio-previews/徹夜思想 - 010820260307AM - Schrodt.wav" autostart="false"></audio>
         </div>
       </div>
-      <script>
-        prevClips = ['WKPrev0108','FarPrev0108','GCPrev0108','TetsuyaPrev0108']
-        function PrevClip() {
-          var index = Math.floor(Math.random() * 1000) % prevClips.length;
-          var id = prevClips[index];
-          var audioElement = document.getElementById(id);
-          audioElement.play ();
-        }
+      <script src="prevClips.js">
       </script>
   </body>
 </html>
