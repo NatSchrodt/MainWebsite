@@ -61,7 +61,7 @@
 }
 .full-display {
   display: grid;
-  grid-template-rows: (auto);
+  grid-template-rows: auto;
 }
 .audio-preview-rows {
   display: grid;
