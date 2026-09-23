@@ -47,6 +47,8 @@
 .album-button {
   border: none;
   background-color: transparent;
+  height: auto;
+  width: auto;
 }
 .album-button:hover{
   cursor: pointer;
