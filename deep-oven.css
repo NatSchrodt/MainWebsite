@@ -48,6 +48,6 @@
   border: none;
   background-color: transparent;
 }
-.album-art:hover{
+.album-button:hover{
   cursor: pointer;
 }
