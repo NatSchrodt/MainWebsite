@@ -51,3 +51,7 @@
 .album-button:hover{
   cursor: pointer;
 }
+.head, body {
+  margin: 0;
+  padding: 0;
+}
