@@ -1,3 +1,7 @@
+.head, body {
+  margin: 0;
+  padding: 0;
+}
 .superlink {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -45,10 +49,6 @@ margin: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10%;
-}
-.head, body {
-  margin: 0;
-  padding: 0;
 }
 .project-links {
   margin-bottom: 3%;
